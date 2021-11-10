@@ -39,7 +39,7 @@ public class Ejercicio5 {
 		} while (!encontrado && posicion <cantidad);
 		
 		if(encontrado) {
-			System.out.println("El número " + buscar + " está en la posición " + posicion);
+			System.out.println("El número " + buscar + " está en la posición " + posicion++);
 		}else {
 			System.out.println("El número no está en la tabla");
 		}
